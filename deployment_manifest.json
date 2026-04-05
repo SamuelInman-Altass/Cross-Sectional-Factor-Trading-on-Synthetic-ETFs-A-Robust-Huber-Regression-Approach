@@ -1,0 +1,34 @@
+{
+  "artifact_format": "linear_npz",
+  "artifact_file": "model_linear.npz",
+  "family": "huber",
+  "target_col": "target_resid_next",
+  "params": {
+    "alpha": 0.0001,
+    "epsilon": 1.35
+  },
+  "selected_feature_names": [
+    "mom_10_40",
+    "xs_rank_mom_10_40",
+    "ret_63",
+    "alpha_momentum_medium",
+    "ret_40",
+    "ret_5",
+    "xs_z_ret_5",
+    "down_vol_5",
+    "ret_mean_10",
+    "xs_z_ret_10",
+    "alpha_rule_score",
+    "dist_min_20",
+    "ma_gap_10",
+    "accel_1_5_20",
+    "ma_gap_20",
+    "xs_rank_ma_gap_20",
+    "xs_z_gap_co_1",
+    "gap_co_1",
+    "xs_rank_gap_co_1"
+  ],
+  "n_features": 19,
+  "candidate_id": "base_outer5_huber_target_resid_next__robust__gross_up",
+  "selected_feature_count": 19
+}

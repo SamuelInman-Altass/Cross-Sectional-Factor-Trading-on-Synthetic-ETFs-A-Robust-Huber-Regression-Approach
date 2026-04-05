@@ -1,0 +1,26 @@
+{
+  "candidate_id": "base_outer5_huber_target_resid_next__robust__gross_up",
+  "cost_rate": 0.0005,
+  "runtime_limit_seconds": 600.0,
+  "target_daily_vol": 0.012,
+  "portfolio": {
+    "confidence_band": 0.1,
+    "daily_turnover_cap": 0.5,
+    "edge_cost_multiplier": 1.0,
+    "gross_exposure": 0.96,
+    "mapping_method": "top_bottom",
+    "net_mode": "neutral",
+    "no_trade_band": 0.0015,
+    "per_asset_cap": 0.04,
+    "target_daily_vol": 0.012,
+    "top_n": 16,
+    "trade_cap": 0.05
+  },
+  "confidence_scale_bounds": [
+    0.45,
+    1.45
+  ],
+  "local_pseudo_test_days": 502,
+  "official_hidden_days_estimate": 756,
+  "runtime_scaling_factor_estimate": 1.5059760956175299
+}
